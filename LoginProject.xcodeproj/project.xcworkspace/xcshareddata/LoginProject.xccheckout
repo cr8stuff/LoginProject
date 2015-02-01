@@ -10,31 +10,31 @@
 	<string>LoginProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</key>
-		<string>https://github.com/cr8stuff/ExchangeAGram.git</string>
+		<key>B573C8F3658901A243696713DBB50A48F1BF9521</key>
+		<string>https://github.com/cr8stuff/LoginProject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LoginProject/LoginProject.xcodeproj</string>
+	<string>LoginProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</key>
-		<string>../../..</string>
+		<key>B573C8F3658901A243696713DBB50A48F1BF9521</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cr8stuff/ExchangeAGram.git</string>
+	<string>https://github.com/cr8stuff/LoginProject.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</string>
+	<string>B573C8F3658901A243696713DBB50A48F1BF9521</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6C84F22F2B57DEF3C09F360E5C0CEDD5C2EF91D9</string>
+			<string>B573C8F3658901A243696713DBB50A48F1BF9521</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DavidApps</string>
+			<string>LoginProject</string>
 		</dict>
 	</array>
 </dict>

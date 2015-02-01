@@ -16,6 +16,7 @@ class CreateAccountViewController: UIViewController {
 
     @IBOutlet weak var choosePassword: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
+    @IBOutlet weak var chooseUsername: UITextField!
     
     var delegate:CreateAccountViewControllerDelegate?
     
@@ -23,7 +24,7 @@ class CreateAccountViewController: UIViewController {
         
         if (choosePassword.text == confirmPassword.text && choosePassword.text != nil){
             
-//            NSUserDefaults.standardUserDefaults().setObject(self.chooseUserNameTextField.text, forKey: kUserNameKey)
+            NSUserDefaults.standardUserDefaults().setObject(self.chooseUsername.text, forKey: kUserNameKey)
             NSUserDefaults.standardUserDefaults().setObject(self.choosePassword.text, forKey: kPasswordKey)
             NSUserDefaults.standardUserDefaults().synchronize()
            
