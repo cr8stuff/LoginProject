@@ -19,8 +19,14 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        let userName = NSUserDefaults.standardUserDefaults().objectForKey(kUserNameKey) as String
+        let password = NSUserDefaults.standardUserDefaults().objectForKey(kPasswordKey) as String
 
-        usernameTextField.text = NSUserDefaults.standardUserDefaults().objectForKey(kUserNameKey) as? String
+
+        usernameTextField.text = userName
+        passwordTextField.text = password
     }
 
     override func didReceiveMemoryWarning() {
